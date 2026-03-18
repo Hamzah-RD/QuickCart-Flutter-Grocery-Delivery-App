@@ -34,7 +34,11 @@ class _SpashScreenState extends State<SplashScreen> {
         child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-          Uihelper.CustomImage(img: "blinkit_logo.png")
+              SizedBox(
+                height: 350,
+                width: 350,
+                child: Uihelper.CustomImage(img: "quickcart_logo.png", width: 350, height: 350),
+              ),
         ],),
       ),
     );

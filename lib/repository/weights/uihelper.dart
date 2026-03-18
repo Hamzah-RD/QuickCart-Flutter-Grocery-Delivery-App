@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class Uihelper {
 
-  static Widget CustomImage({required String img}) {
+  static Widget CustomImage({required String img, required int width, required int height}) {
     return Image.asset("asset/images/$img");
   }
 
